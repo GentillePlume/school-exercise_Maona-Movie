@@ -4,3 +4,6 @@
 [submodule "WOW"]
 	path = WOW
 	url = https://github.com/matthieua/WOW.git
+[submodule "KeyboardJS"]
+	path = KeyboardJS
+	url = https://github.com/RobertWHurst/KeyboardJS.git

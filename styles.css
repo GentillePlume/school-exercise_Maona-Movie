@@ -6,6 +6,21 @@
   /* user-select: none; */
 }
 
+@font-face {
+  font-family: PoiretOne;
+  src: url("fonts/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: MontSerrat;
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url("fonts/SourceSansPro-Regular.ttf");
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -25,8 +40,6 @@ main {
   height: auto;
   flex-flow: column;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Poiret+One|Source+Sans+Pro');
 
 /*
 ##################################################
@@ -77,7 +90,7 @@ HEADER
 .header__title {
   width: 50%;
   font-size: 75px;
-  font-family: "Montserrat";
+  font-family: MontSerrat;
   text-transform: uppercase;
   color: white;
   padding: 25px 50px 25px 25px;
@@ -87,7 +100,7 @@ HEADER
 
 .header__desc {
   font-size: 25px;
-  font-family: "Source sans pro";
+  font-family: SourceSansPro;
   color: white;
   padding: 25px 5%;
   width: 50%;
@@ -122,7 +135,7 @@ HEADER
 
 .header__about_p {
   font-size: 25px;
-  font-family: "Poiret One";
+  font-family: PoiretOne;
   font-weight: bold;
   color: black;
   text-transform: uppercase;
@@ -177,7 +190,7 @@ HIGHTLIGHT SECTION
 
 .highlight__article_title {
   width: 75%;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 30px;
   /* text-transform: uppercase; */
   padding: 25px 0 2vh 40px;
@@ -186,7 +199,7 @@ HIGHTLIGHT SECTION
 
 .highlight__article_p {
   font-size: 1vw;
-  font-family: "Source sans pro";
+  font-family: SourceSansPro;
   padding: 1vh 40px;
   width: 75%;
 }
@@ -197,7 +210,7 @@ HIGHTLIGHT SECTION
   height: 50px;
   margin: auto 1vh 1vh 0;
   font-size: 20px;
-  font-family: "Poiret One";
+  font-family: PoiretOne;
   justify-content: center;
   align-items: center;
   border-radius: 25px;
@@ -307,7 +320,7 @@ ARTICLES SECTION
   color: white;
   font-size: 70px;
   padding-left: 30px;
-  font-family: "Montserrat";
+  font-family: MontSerrat;
   text-transform: uppercase;
   transform: skew(0, 3deg) translateY(35px);
 }
@@ -371,7 +384,7 @@ ARTICLES SECTION
   display: inline-block;
   font-size: 25px;
   width: auto;
-  font-family: "Montserrat";
+  font-family: MontSerrat;
   padding: 20px;
   /* margin: 0 auto; */
   text-align: center;
@@ -396,7 +409,7 @@ ARTICLES SECTION
   font-size: 20px;
   /* margin-top: 25px; */
   /* margin: auto 0; */
-  font-family: "Source sans pro";
+  font-family: SourceSansPro;
   padding: 0 50px;
   color: white;
   z-index: 2;
@@ -412,7 +425,7 @@ ARTICLES SECTION
   /* margin-top: auto; */
   /* margin-bottom: 10px; */
   font-size: 20px;
-  font-family: "Poiret One";
+  font-family: PoiretOne;
   justify-content: center;
   align-items: center;
   background: #0165C1;
@@ -461,7 +474,7 @@ ARTICLES SECTION
 .widget__title {
   width: 100%;
   font-size: 25px;
-  font-family: "Montserrat";
+  : "Montserrat";
   padding: 10px 0;
 }
 
@@ -478,7 +491,7 @@ ARTICLES SECTION
   border: none;
   outline: none;
   font-size: 15px;
-  font-family: "Source sans pro";
+  font-family: SourceSansPro;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
@@ -541,6 +554,6 @@ ARTICLES SECTION
 
 .footer__p {
   margin-left: 15px;
-  font-family: "source sans pro";
+  font-family: SourceSansPro;
   font-size: 1vw;
 }
